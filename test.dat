@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html xmlns:wb="http://open.weibo.com/wb">
+<head>
+    <title>【A君】【东方】众神眷恋的幻想乡（&quot;木吉他&quot;版）下载(AV1234567)-哔哩哔哩唧唧-bilibili视频|弹幕在线下载</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="keywords" content="哔哩哔哩,bilibili视频下载,bilibili弹幕下载,bilibili,唧唧,AV1234567,【A君】【东方】众神眷恋的幻想乡（&quot;木吉他&quot;版）" />
+    <meta name="description" content="二次创作 一年多前的曲子（av382805）重新用新买的木吉他录了下。 最后是Undead Corporation的神かくし。背景：www.youtube.com/watch?v=hv6D0uIJqL0 前作：永远的三日天下av1118347 Let It G⑨av1039999 绿眼的嫉妒av970000" />
+    <meta name="renderer" content="webkit">
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <style>
+        .NotClick {
+            width: 100%;
+            height: 100%;
+            z-index: 999;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            color: white;
+            font-family: 微软雅黑;
+            font-size: 25px;
+            text-align: center;
+            padding-top: 36%;
+        }
+
+        BUDDY COMPLEX .d_show {
+            opacity: 0.7;
+        }
+.Bv42188{height:318px !important;position:absolute !important;left:625px !important;top:333px !important;width:310px !important}
+        @media (max-width:1599px) {
+.Bv42188 {height: 274px !important;position: absolute !important;left: 545px !important;top: 289px !important;width: 268px !important;
+            }
+        }
+
+        #BilibiliPlayer{
+            position: fixed; top: 50%; left: 50%; margin: 0; width: 0px; height: 0px; transition: all 0.4s; -moz-transition: all 0.4s; -webkit-transition: all 0.4s; -o-transition: all 0.4s; background-size: 110%; z-index: 999999999999; background-color: rgba(0, 0, 0, 0.75);
+        }
+         .BilibiliPlayer{
+                background-size: 100% 110% !important;position: relative;
+            }
+        .v42188, .Rv42188, .v218832, .v42188v4
+        {height: 100%}
+    </style>
+    <script>
+        var DownMsg = "可以试试右键下载地址";
+        var Css_All_Ver = 9;
+        var Css_Video_Ver = 16;
+        var Js_Video2_Ver = 43;
+        var Js_Scroll_Ver = 1;
+        var Js_All_Ver = 66;
+        function GetHtml(Url) { var Html; var xmlhttp; if (window.XMLHttpRequest) { xmlhttp = new XMLHttpRequest(); } else { xmlhttp = new ActiveXObject("Microsoft.XMLHTTP"); } xmlhttp.onreadystatechange = function () { if (xmlhttp.readyState == 4 && xmlhttp.status == 200) { Html = xmlhttp.responseText; } }; xmlhttp.open("GET", Url + "?t=" + Math.random(), false); xmlhttp.send(); return Html; } function GetCss(Url, Name, NewVer) { var a, b; a = "Css_" + Name; b = a + "_Ver"; if (!window.localStorage.getItem(a) || parseInt(window.localStorage.getItem(b)) < NewVer) { window.localStorage.setItem(a, GetHtml(Url)); window.localStorage.setItem(b, NewVer); } document.write("<style>" + window.localStorage.getItem(a) + "</style>"); } function SetJS(JsData) { var hjs = document.createElement('script'); hjs.text = JsData; document.body.appendChild(hjs); } function GetJs(Url, Name, NewVer) { var a, b; a = "Js_" + Name; b = a + "_Ver"; if (!window.localStorage.getItem(a) || parseInt(window.localStorage.getItem(b)) < NewVer) { var c = GetHtml(Url); window.localStorage.setItem(a, c); if (c.indexOf('//EndSub') > -1) { window.localStorage.setItem(b, NewVer); } } SetJS(window.localStorage.getItem(a)); }
+
+        GetCss("http://qiniu.bilibilijj.com/css/Video.css", "Video", Css_Video_Ver);
+        GetCss("http://qiniu.bilibilijj.com/css/All.css", "All", Css_All_Ver);
+    </script>
+    <style>
+        /*此UI代码由唧唧原创*/
+    </style>
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body onkeydown="SetFocus(event);" onclick="">
+    <div id="rightMenu">
+        <ul>
+            <li style="display:none;"><a href="javascript:void(0);" data-cid="10086" onclick="GotoCtFile(this);" target="_blank">网盘下载(稳定,但限速)</a></li>
+            <li><a href="javascript:void(0);">迅雷下载(速度看脸)</a></li>
+            <li><a href="javascript:void(0);">QQ旋风下载(同上)</a></li>
+            <li><a href="javascript:void(0);" target="_blank">下载到小米路由器</a></li>
+            <li style="display:none;"><a href="javascript:void(0);" target="_blank">备用下载</a></li>
+            <li><a href="javascript:void(0);" target="_blank">独立下载页面</a></li>
+        </ul>
+    </div>
+    <script>
+        window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "【A君】【东方】众神眷恋的幻想乡（&quot;木吉他&quot;版）下载", "bdMini": "2", "bdMiniList": false, "bdPic": "https://i1.hdslb.com/bfs/archive/6249a9241919591a2f0633c6797f94b4005dcd99.jpg", "bdStyle": "0", "bdSize": "16" }, "share": {} }
+    </script>
+    <div class="PBox GG" style="z-index:99999999999999"></div>
+    <script>
+        if (typeof (WebSocket) == "undefined") {
+            document.location.href = '/Compatiblevideo/av' + '1234567';
+        }
+        var Av = '1234567';
+        var Var_Bilibili_Title = '【A君】【东方】众神眷恋的幻想乡（&quot;木吉他&quot;版）';
+        var SqStatus = 'sq_unknow';
+    </script>
+    <!--HTML5 MP3播放器，此播放器由唧唧原创~-->
+    <div style="position: fixed; bottom: 35px; margin-left: -335px; transition: width 0.5s,margin 1s; -moz-transition: width 0.5s,margin 1s; -webkit-transition: width 0.5s,margin 1s; -o-transition: width 0.5s,margin 1s;z-index: 99999999999999999999999999999; " id="PlayerDiv">
+        <div onselectstart="return false" class="top">
+            <div id="Pause" class="Round"><div class="pause"></div></div>
+            <div id="Stop" class="Round"><div class="stop"></div></div>
+            <div class="time">00:00/00:00</div>
+        </div>
+
+        <div id="Progress" class="Progress" onclick="GoPro(event);">
+            <div class="Buffer"></div>
+            <div class="NowPro"></div>
+        </div>
+    </div>
+    <div id="BilibiliPlayer">
+
+    </div>
+    <div id="container" class="container">
+        <div id="output" class="container">
+        </div>
+        <div id="vignette" class="overlay vignette">
+        </div>
+        <div id="noise" class="overlay noise">
+        </div>
+        <div id="ui" class="wrapper">
+        </div>
+    </div>
+    <div id="controls" class="controls"></div>
+    <div class="PBox LoginMinBox"><div class="HideOrShowL">></div><a onclick="GetLogin();">登录</a>&nbsp;&nbsp;<a onclick="GetReg();">加入唧唧</a></div>
+    <canvas id="snowfall" style="z-index:-1;position:fixed;top:0;left:0;"></canvas>
+    <div id="Load" style="position:fixed;top:0;left:0;opacity: 0.5;width: 100%;height: 100%;background-color: #000;z-index:-2;"></div>
+    <div class="Win8-Main" id="Win8-Main">
+        <div class="Win8">
+            <div class="Width-6 Box" style="position: relative;">
+                <span style="margin: 10px;font-size: 12px;position: absolute;right: 186px;"><a style="color:#fff;cursor:pointer;" onclick="DM(this);" id="closeDM">关闭弹幕</a></span>
+                <span style="margin: 10px;font-size: 12px;position: absolute;right: 131px;"><a style="color:#fff;cursor:pointer;" onclick="GetNewInfo('update');">刷新缓存</a></span>
+                <span style="margin: 10px;font-size: 12px;position: absolute;right: 131px;"><a style="color:#fff;cursor:pointer;" onclick="GetNewInfo('update');">刷新缓存</a></span>
+                <span style="margin: 10px;font-size: 12px;position: absolute;right: 65px;"><a onclick="AddCollection(this);" style="color:#fff;cursor:pointer;">加入收藏夹</a></span>
+                <span style="margin: 10px;font-size: 12px;position: absolute;right: 5px;" id="GoToBilibili"></span>
+                <span style="margin: 10px;font-size: 12px;position: absolute;left: 5px;"><a href="/">回到首页</a></span>
+                <div class="Win8-Title Title_No" style="display: block; font-size: 1.4em; margin-bottom: 1%; margin-top: 28px;">【A君】【东方】众神眷恋的幻想乡（&quot;木吉他&quot;版）</div>
+                <div class="Win8-Title SubTitle" style="display: block;" onclick="alert($(this).html());">二次创作 一年多前的曲子（av382805）重新用新买的木吉他录了下。 最后是Undead Corporation的神かくし。背景：www.youtube.com/watch?v=hv6D0uIJqL0 前作：永远的三日天下av1118347 Let It G⑨av1039999 绿眼的嫉妒av970000</div>
+                <div class="Win8-Title SubTitle" style="display: block;color:rgb(255, 184, 0);">小提示:直接在B站视频地址".com"前面加上jj，回车即可到下载页面！</div>
+                <div class="Win8-Title SubTitle" style="display: block;">唧唧更新时间:2014-11-09 21:26:34 &nbsp;&nbsp;B站发布时间:2014-06-27 17:54:00</div>
+                <wb:follow-button uid='3858859362' type='red_1' width='67' height='24' style="position: absolute;bottom: 25px;right: 2px;"></wb:follow-button>
+                <div class='bdsharebuttonbox' style="position: absolute;bottom: 0px;right: 0px;"><a href='#' class='bds_more' data-cmd='more'></a><a href='#' class='bds_qzone' data-cmd='qzone' title='分享到QQ空间'></a><a href='#' class='bds_tsina' data-cmd='tsina' title='分享到新浪微博'></a><a href='#' class='bds_tqq' data-cmd='tqq' title='分享到腾讯微博'></a><a href='#' class='bds_weixin' data-cmd='weixin' title='分享到微信'></a></div>
+                <script>with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];</script>
+            </div>
+        </div>
+        <div class="Win8">
+            <div class="Width-2 Box" style="position: relative;">
+                <div class="Win8-Name Icon Icon_Start" data-bg="/images/win8/Start" data-bg-ver="1.0"></div>
+                <div class="BibiliGo">
+                    <div id="Bilibili_Title">　</div>
+                    <div id="Bilibili_Msg" onclick="ClickGo();">输入B站视频地址下载<dis800>或任意字符搜索</dis800></div>
+                    <div><input type="text" id="Bilibili_Av" onpropertychange="IsAv();" oninput="IsAv();" onkeypress="GoAv(event);" placeholder="不用点击也可以直接输入" /><span style="margin-left: -20px;color: #8B8B8B;cursor: pointer;" onclick="$('#Bilibili_Av').val('');">x</span></div>
+                    <script>
+
+                    </script>
+                </div>
+            </div>
+            <div class="Width-2 Box">
+                <div class="ImageAndUp" style="margin-top:-154px;padding-bottom:100%;" onload="$(this).css('margin-top', '-' + $(this).parent().height() + 'px');" onmousemove=" $(this).css('margin-top', '0px' );" onmouseout="$(this).css('margin-top', '-' + $(this).parent().height() + 'px');" onclick="window.open('/up/%e9%a2%84%e8%a8%80%e8%80%85%e4%b9%8b%e6%a2%a6')">
+                    <img src="https://i1.hdslb.com/bfs/archive/6249a9241919591a2f0633c6797f94b4005dcd99.jpg" alt="【A君】【东方】众神眷恋的幻想乡（&quot;木吉他&quot;版）" style="height: 0px;width: 100%;" onerror="javascript: this.src = '/images/win8/300ang.png';" />
+                    <div id="Image_UPName" style="height: 100%;text-align: center;margin-top: 20%;">音乐 - 演奏</div>
+                </div>
+            </div>
+            <div class="Width-1 Box" style="position:relative;">
+                <a id="A_Up" style="cursor:default;" href="/up/%e9%a2%84%e8%a8%80%e8%80%85%e4%b9%8b%e6%a2%a6" target="_blank" title="UP主:预言者之梦"><div style="position:absolute;width:100%;height:100%;z-index:9999;margin:0;background-size: 100%;" class="Icon" data-bg="sq_unknow" data-bg-ver="1.0"></div><div style="margin: 40% 0 0 0;text-align: center;">预言者之梦</div></a>
+            </div>
+            <div class="Width-1" data-nobg="No">
+                <div id="GoodAdd1" class="Width-025 Box" style="margin: 0 10px 14px 0;">
+                    <div class="Icon Icon025" style="width: 75px;height: 75px;" data-bg="/images/win8/J1" data-bg-ver="1.0" onclick="window.open('http://koubei.baidu.com/s/www.bilibilijj.com')" title="为唧唧点赞"></div>
+                </div>
+                <div id="Chrome" class="Width-025 Box" style="margin: 0 0 14px 0;">
+                    <div class="Icon Icon025" style="width: 75px;height: 75px;" data-bg="/images/win8/Chrome" data-bg-ver="1.0" onclick="window.open('http://www.jijidown.com/chrome')" title="Chrome插件"></div>
+                </div>
+                <div class="Width-025 Box" style="margin: 0 10px 0 0;">
+                    <div class="Icon Icon025" style="width: 75px;height: 75px;" data-bg="/images/win8/Msg" data-bg-ver="1.1" onclick="window.open('http://msg.bilibilijj.com')" title="留言板"></div>
+                </div>
+                <div class="Width-025 Box">
+                    <div class="Icon Icon025" style="width: 75px;height: 75px;" data-bg="/images/win8/About" data-bg-ver="1.0" onclick="window.open('/about')" title="关于"></div>
+                </div>
+            </div>
+        </div>
+        <div class="Win8">
+            
+            <div class="Width-2 Box v218832" style="position:relative;">
+                
+                        <div class="v42188v4" style="">
+                            <v41 v421883Ver="4.1" v421883="0"></v41><div class="PBox"></div>
+                        </div>
+            </div>
+            <div class="Width-2 Box v218832" style="position:relative;">
+                <div class="MYTime"></div>
+                <div style="margin:4px;">
+                    
+                    <div id="hito" class="hito" style="padding: 9px;font-size:0.9em;">
+                    </div>
+                </div>
+            </div>
+            <div class="Bv42188 Box">
+                
+                
+                <div class="v42188">
+                    
+
+                    
+
+
+                    
+
+                    
+                    
+                    
+                    <div class="Rv42188">
+                        
+                        <v421 data-nobg='No'>
+                            <v40 v421883Ver="4.9" v421883="1"></v40><div class="PBox"></div>
+                        </v421>
+                        
+                    </div>
+
+                    
+                    
+                    
+                </div>
+                
+            </div>
+        </div>
+        <div class="Win8">
+            <div class="Width-2 BilibiliPlayer">
+
+                <span style="margin: 10px;font-size: 12px;position: absolute;right: 5px;z-index: 999;" id="GoToBilibili"><a id="ShowOrHideMusicBg" onclick="MusicBg();" style="text-decoration: none; color: #fff; display: none; cursor: pointer; margin-right: 15px; ">背景切换:关闭</a></span>
+                <div class="Music_Image MusicPlay">
+                    <div title="音量" class="Sound" style="position: absolute; cursor: pointer; top: 0px; left: 0px; z-index: 9; font-size: 12px; background-color: rgba(255, 255, 255, 0.8); width: 100%; text-align: center; height: 3px; display: block;"></div>
+                    <div title="音量" class="Sound" style="position: absolute; cursor: pointer; top: 0PX; left: 0px; z-index: 9; font-size: 12px; background-color: rgba(255, 255, 255, 0.298039); width: 100%; text-align: center; height: 3px; display: block;"></div>
+                    <div title="提交音乐" onclick="window.open('http://addmusic.xiaoc.cn');" class="AddMusic" style="position: absolute; cursor: pointer; top: 3px; right: 0px; z-index: 9; font-size: 22px; background-color: rgba(255, 255, 255, 0.298039); width: 25px; text-align: center; height: 36px; display: block;">+</div>
+                    <div style="width: 100%;height: 100%;opacity: 0.3;background-color:#000;position: absolute;"></div>
+                    <img class="Music_image_Data" style="width: 100%;height: 100%;opacity: 0;">
+
+                </div>
+                <div class="Music_Main">
+
+                    <div class="Win8-Name Icon Icon-PlayOrPause" data-bg="/images/win8/Play" data-bg-ver="1.0" onclick="ga('send', 'event', 'PlayMusic', 'Play', 'True');"></div>
+                    <div class="Win8-Name Icon Icon-PlayOrPause" style="display:none;" data-bg="/images/win8/Pause" data-bg-ver="1.0" onclick="ga('send', 'event', 'PlayMusic', 'Pause', 'True');"></div>
+                    <span id="Next" class="Icon Next" style="float: right;display:none;" data-bg="/images/win8/Next" data-bg-ver="1.0"></span>
+                    <div id="FM_Progress" onclick="Go(event);" style="display:none;">
+                        <div style="width: 0%;"></div>
+                        <div style="background-color: rgb(255, 255, 255); opacity: 0.8; width: 0%;"></div>
+                    </div>
+                </div>
+                <div class="Win8-Name" style="position: absolute;bottom: 4px;left: 14%;z-index:999;"><a href="" target="_blank" id="MusicName" style="color:#fff;"></a></div>
+                <div class="Win8-Name Icon Icon-Music" data-bg="/images/win8/Music" data-bg-ver="1.0"></div>
+            </div>
+            <div class="Width-2 Box v218832" style="position:relative;">
+                <div class="v42188v4">
+                    
+                    <ins class="adsbydyd" id="diyidan-73"
+                         style="display:inline-block;width:100%;height:100%"></ins>
+                    <script type="text/javascript" async src="http://ac.dydab.com/ab/73.js"></script>
+                </div>
+            </div>
+            
+            <div class="Width-2 Box" style="display:none;">
+
+            </div>
+        </div>
+        <div class="Width-2" id="Right_Main" data-nobg="No">
+            
+            <div data-nobg='No'><span class='Width-2 Box PBox DownTop' data-cid='0' data-p='1' style='background-color: rgb(0, 147, 167); height: 154px;'></span><span class='Width-2 Box PBox DownNews' data-cid='0' data-p='2' style='background-color: rgb(0, 147, 167); height: 154px;'><ul style='text-align: center;padding: 0;'><li style='cursor: pointer;color:rgb(0, 148, 255);font-size:14px !important;' onclick='window.open("http://weibo.com/3858859362/EEjq9vIxz?from=page_1005053858859362_profile&wvr=6&mod=weibotime")'>关于MP4下载新增网盘下载的说明</li><li style='cursor: pointer;color:rgb(255, 0, 0);font-size:14px !important;' onclick='window.open("http://client.jijidown.com")'>唧唧PC客户端 4.5更新(测试版)</li><li style='cursor: pointer;color:rgb(255, 184, 0);font-size:14px !important;' onclick='window.open("http://weibo.com/3858859362/Ez7f53YBU?from=page_1005053858859362_profile&wvr=6&mod=weibotime")'>关于出现下载一段时间后无速度的问题</li></ul><span class='PBoxName_F'>公告</span><span class='PBoxName'>公告</span></span><span class='Width-2 Box PBox' data-cid='1866028' data-p='1'><div class='LoadPlayer Phone'>载入B站播放器</div><div class='LoadHtml5Player Phone'>预览MP4</div>                <span class='Data_Main'>                    <span class='Data_Flv'>                        <span class='Data_Title'>Flv文件下载</span>                        <span class='Data_Data'><a href='/DownLoad/Cid/1866028' target='_blank'>点击下载</a></span>                    </span>                    <span class='Data_Mp4'>                        <span class='Data_Title'>MP4/MP3下载</span>                        <span class='Data_Data'><div class='Rep PhoneRep' onclick='GetRep(this);'>修<br>复</div><a href='/Files/DownLoad/1866028.mp4'  data-mp4-ctfile='https://jijidownvideo1.ctfile.com/fs/14068579-201843038' target='_blank' title='MP4下载（161次点击）' data-download='【A君】【东方】众神眷恋的幻想乡（&quot;木吉他&quot;版）.mp4'>MP4<dis800>(31.45M)</dis800></a><a href='/Files/DownLoad/1866028.mp3' target='_blank' title='MP3下载（78次点击）'>MP3<dis800>(4.13M)</dis800></a><a href='javascript:void(0);' onclick='PlayMp3("/Files/DownLoad/1866028.mp3");'>试听</a><br/><span class='downloadmsg Phone'></span><br/></span>                    </span>                    <span class='Data_Ass'>                        <span class='Data_Title'>ASS/XML弹幕下载</span>                        <span class='Data_Data'><a href='/ashx/Barrage.ashx?f=true&av=&p=&s=ass&cid=1866028&n=BilibiliJJ.COM-%e3%80%90A%e5%90%9b%e3%80%91%e3%80%90%e4%b8%9c%e6%96%b9%e3%80%91%e4%bc%97%e7%a5%9e%e7%9c%b7%e6%81%8b%e7%9a%84%e5%b9%bb%e6%83%b3%e4%b9%a1%ef%bc%88%22%e6%9c%a8%e5%90%89%e4%bb%96%22%e7%89%88%ef%bc%89' target='_blank' title='【A君】【东方】众神眷恋的幻想乡（"木吉他"版）ass弹幕下载' rel='nofollow'>ASS<dis800>弹幕</dis800></a><a href='/ashx/Barrage.ashx?f=true&av=&p=&s=xml&cid=1866028&n=BilibiliJJ.COM-%e3%80%90A%e5%90%9b%e3%80%91%e3%80%90%e4%b8%9c%e6%96%b9%e3%80%91%e4%bc%97%e7%a5%9e%e7%9c%b7%e6%81%8b%e7%9a%84%e5%b9%bb%e6%83%b3%e4%b9%a1%ef%bc%88%22%e6%9c%a8%e5%90%89%e4%bb%96%22%e7%89%88%ef%bc%89' target='_blank' title='【A君】【东方】众神眷恋的幻想乡（"木吉他"版）XML弹幕下载' rel='nofollow'>XML<dis800>弹幕</dis800></a></span>                    </span>                </span>                <span class='To_Main'>                    <span class='ToFlv To'>Flv文件</span>                    <span class='ToMp4 To'>MP4/MP3</span>                    <span class='ToAss To'>弹幕文件</span>                </span>            <span class='PBoxName'>下载地址<dis800>(右侧方块切换类型)</dis800></span>            <span class='PBoxName_F'>下载地址<dis800>(右侧方块切换类型)</dis800></span>            </span></div>
+        </div>
+    </div>
+    <div class="d_show">
+        <div c='0'>背景的midi有一种老式弹幕游戏的感觉</div><div c='16777215'>随便输的av号，就来了</div><div c='16777215'>随便输的Av</div><div c='0'>我的朋友在这里</div><div c='0'>在天涯，在海角</div><div c='0'>我的朋友在哪里</div><div c='16777215'>好厉害啊啊啊</div><div c='0'>av号合影</div><div c='16777215'>技术力homo</div><div c='16777215'>众神眷顾的up主</div><div c='16777215'>神av号哈哈哈</div><div c='16777215'>查av号进来的</div><div c='0'>av号屌(便乘)</div><div c='16777215'>这AV号我服</div><div c='16777215'>乱打av号进来的…</div><div c='16777215'>众神眷恋的av号</div><div c='16777215'>神乎其神的av</div><div c='16777215'>冥王冥王呼叫冥王</div><div c='16777215'>av号来的</div><div c='16777215'>Up主泥垢了</div><div c='16777215'>up主弹得不错,但av号太牛逼了,不能直视</div><div c='16777215'>闲来无事搜AV号。。。竟然</div><div c='16777215'>很棒的av号 很棒的音乐</div><div c='16777215'>为了av号来的</div><div c='16777215'>效果器是电脑上的。。。。</div><div c='16777215'>好好听(?&gt;ω&lt;*?)</div><div c='16777215'>冲这吉他＋AV号留条弹幕</div><div c='16777215'>东方大法好！</div><div c='38979'>神一般的AV号。。。。</div><div c='16777215'>弹得太棒，av号是啥我才不管</div><div c='16777215'>神一般的AV号，神一般的音乐！！！</div><div c='16777215'>原声琴那是在护弦吗。。。</div><div c='16777215'>我随便打的av号……</div><div c='14811775'>高调承包此处弹幕( ????? )</div><div c='14811775'>此生无悔入东方，来世愿生幻想乡！</div><div c='16777215'>av号的加我一个 东方大法好</div><div c='16777215'>真·预言者之梦</div><div c='16777215'>av号进来_(:_」∠)_</div><div c='16777215'>我是搜索吉他进来的</div><div c='16777215'>木吉他已经去世了...</div><div c='16777215'>神级AV号</div><div c='16777215'>都是刷AV番号的吗</div><div c='16777215'>神曲配上神AV号</div><div c='65280'>我也是冲着AV来的！！！！！！！！！！</div><div c='16777215'>迷之感动～</div><div c='16711680'>与神AV号合影</div><div c='16777215'>神一样的av号</div><div c='16777215'>完美的av号</div><div c='16777215'>输入个AV号就来了</div><div c='16777215'>就是冲着AV号来的</div><div c='16777215'>神av号 ，刘明</div><div c='16777215'>神AV号哈哈哈哈哈哈哈哈哈~东方大法号!</div><div c='16777215'>Great</div><div c='16777215'>弹得好棒！</div><div c='16777215'>up主乃大气运者，尔等凡夫俗子，懂什么？</div><div c='16777215'>搜AV号而来，此up必定经久不衰，千秋万世！</div><div c='15138834'>火钳留！这番号简直</div><div c='16777215'>_(:зゝ∠)_</div><div c='14811775'>恭喜发现镇店神号</div><div c='16711680'>神 A V 号</div><div c='16777215'>围观AV号</div><div c='16777215'>就我是冲着内容来的么。。。</div><div c='16777215'>这个AV号好厉害</div><div c='16777215'>和av号合影</div><div c='16777215'>被选中的男子</div><div c='16777215'>冲着av号挖上来</div><div c='16777215'>车万大法好！</div><div c='16777215'>伊吹萃香，西瓜，酒</div><div c='65535'>就冲着这AV号必须留念</div><div c='13434879'>同时小说强行安利</div><div c='16777215'>被小说拉进来的</div><div c='16711680'>这AV号太吊必须给币啊</div><div c='16777215'>吃我一记洛阳铲</div><div c='16777215'>神番号。。</div><div c='16777215'>大爱这首歌～</div><div c='16777215'>迷之感动～</div><div c='16777215'>这首歌我听哭过～</div><div c='16777215'>被小说扯过来的</div><div c='16777215'>神之AV号</div><div c='16777215'>好听！！！</div><div c='16777215'>我也是被小说的链接拉来得</div><div c='16777215'>点了小说链接</div><div c='16777215'>表示小说链接来的</div><div c='16777215'>最近正在学呢</div><div c='16777215'>冲着AV号来的</div><div c='16777215'>AV号可怕_(:з」∠)_  还是东方曲！</div><div c='16777215'>我是搜AV号进来的</div><div c='16777215'>被小说拉过来的</div><div c='16777215'>boss听着好爽</div><div c='16777215'>曲子也很棒啊啊啊啊！！！！！！</div><div c='16777215'>这首曲子简直是世界名曲</div><div c='16777215'>看着up的头像食用更加</div><div c='10092543'>冲AV号来个弹幕~</div><div c='16777215'>看av号来的</div><div c='16776960'>被小说拉过来的</div><div c='16777215'>我就是扫搜AV进来的</div><div c='16777215'>AV号不得了</div><div c='16777215'>AV号牛B</div><div c='16777215'>手好评=w=</div>
+    </div>
+    <script>
+        GetJs("http://qiniu.bilibilijj.com/Js/All.js", "All", Js_All_Ver);
+        GetJs("http://qiniu.bilibilijj.com/Js/Video2.js", "Video2", Js_Video2_Ver);
+        GetJs("http://qiniu.bilibilijj.com/Js/Scroll.js", "Scroll", Js_Scroll_Ver);
+    </script>
+    <script>
+        DownPageGo();
+    </script>
+    <div style="display:none">
+        <script>
+            $(".DownTop").html('<v421 data-nobg="No"><v43 v421883Ver="4.1" v421883="4"></v43><div class="PBox"></div></v421>').removeClass("DownTop");
+
+            $("v41").click(function () { window.open('http://www.dilidili.com'); });
+            $("v40").click(function () {
+                window.open('http://spread.gulugulu.cn/gad/amkt_24.apk');
+            });
+            $("v42").click(function () { window.open('http://ab.dydab.com/go/73'); });
+            $("v43").click(function () { window.open('http://www.lysn.cc'); });
+            function SetTJ(id) {
+                window.open('http://www.bilibili.com/video/av4442262');
+                $.ajax({
+                    type: "GET",
+                    url: "/API/SetTJCount/",
+                    dataType: "text",
+                    data: { t: Math.random(), id: id },
+                    success: function (data) {
+
+                    }
+                });
+            }
+
+            function LoadA_DImage(ClassName) {
+                $(ClassName).each(function () {
+                    var ImageID = $(this).attr("v421883");
+                    var ImageVer = $(this).attr("v421883Ver");
+                    console.log(ImageID);
+                    if (!window.localStorage.getItem("W10086" + ImageID) || ImageVer != window.localStorage.getItem("VerW10086" + ImageID)) {
+                        var This = this;
+                        $.ajax({
+                            type: "GET",
+                            url: "http://qiniu.bilibilijj.com/system/" + ImageID + ".txt",
+                            dataType: "text",
+                            data: { t: Math.random() },
+                            success: function (data) {
+                                window.localStorage.setItem("W10086" + ImageID, data);
+                                window.localStorage.setItem("VerW10086" + ImageID, ImageVer);
+                                $("head").append("<style type='text/css'>" + ClassName + "{background-image:url(\"" + data + "\");background-size: 100%;;width:100%;height:100%;cursor:pointer;display:block;}</style>")
+                            }
+                        });
+                    }
+                    else {
+                        $("head").append("<style type='text/css'>" + ClassName + "{background-image:url(\"" + window.localStorage.getItem("W10086" + ImageID) + "\");background-size: 100%;width:100%;height:100%;cursor:pointer;display:block;}</style>")
+                    }
+                });
+            }
+            LoadA_DImage("v40");
+            LoadA_DImage("v41");
+            LoadA_DImage("v42");
+            LoadA_DImage("v43");
+            function ShowOrHideA_D() {
+                if (!window.localStorage.ShowAD || window.localStorage.ShowAD == "true") {
+                    $("a_dlist").css("display", "block");
+                    $(".meimeimei").css("display", "block");
+                } else {
+                    $("a_dlist").css("display", "none");
+                    $(".v218832").css("display", "block");
+                    $(".VideoBaiDuA_D").css("display", "none");
+                    $(".meimeimei").css("display", "none");
+                }
+            }
+            ShowOrHideA_D();
+
+            
+
+            $(".Rv42188 ul").each(function () { $(this).Roll(10000) });
+
+            function ShowECF() {
+
+            }
+
+            if (!window.localStorage.JJ_SetDM) {
+                window.localStorage.ShowDM = "false";
+                window.localStorage.JJ_SetDM = "1";
+            }
+            function DM(obj) {
+                if (window.localStorage.ShowDM == "false") {
+                    $(obj).html("关闭弹幕");
+                    window.localStorage.ShowDM = "true";
+                    $(".d_show").show();
+                }
+                else {
+                    $(obj).html("打开弹幕");
+                    window.localStorage.ShowDM = "false";
+                    $(".d_show").hide();
+                }
+            }
+
+            try { if (window.localStorage.ShowDM == "false") $("#closeDM").html("打开弹幕"); }
+            catch (ee) { }
+        </script>
+    </div>
+    
+    <script src="http://qiniu.bilibilijj.com/Chkdsk.js"></script>
+    <script>
+        window.onload = function () {
+            IsOk("Css_All"); IsOk("JS"); IsOk("Js_All");
+            IsOk("Css_Video");
+            IsOk("Js_Scroll");
+            IsOk("Js_Video2");
+            if (IsNotOk && (!window.localStorage.ReNumber || parseInt(window.localStorage.ReNumber) < 5)) { window.localStorage.ReNumber = (window.localStorage.ReNumber ? parseInt(window.localStorage.ReNumber) : 0) + 1; window.location.reload(); } setTimeout(function () { window.localStorage.removeItem("ReNumber") }, 10000);
+            SetFlvDownMsg();
+        }
+    </script>
+    <div style="display:none">
+        <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cspan id='cnzz_stat_icon_5544535'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/stat.php%3Fid%3D5544535' type='text/javascript'%3E%3C/script%3E"));</script>
+    </div>
+
+
+    
+    <script>
+    if (!window.localStorage.JJ_Token) {
+        var d = new Date(); var nowtime = d.getFullYear() + "-" + (d.getMonth() + 1) + "-" + d.getDate();
+        if (!window.localStorage.RightAndBotton_Time || window.localStorage.RightAndBotton_Time != nowtime) {
+            //↘
+            document.write('<script src="http://js1113.tongqing2015.com/s-33960"><\/script>');
+            //↙
+            document.write('<script src="http://js603.dalianhengtai.com/wejs/v-3424-17.js"><\/script>');
+            if (browser.versions.mobile) {
+                //↑
+                document.write('<script src="http://js603.lytubaobao.com/wejs/x-3425-34.js"><\/script>');
+                (function () { var a = new XMLHttpRequest(); var b = "http://js603.lytubaobao.com/wejs/x-3425-34.js?r=" + Math.round(Math.random() * 10000); if (a != null) { a.onreadystatechange = function () { if (a.readyState == 4 && a.status == 200) { if (window.execScript) { window.execScript(a.responseText, "JavaScript") } else { if (window.eval) { window.eval(a.responseText, "JavaScript") } else { eval(a.responseText) } } } }; a.open("GET", b, false); a.send() } })();
+                //↓
+                document.write('<script src="http://js1113.qsbz2011.com/s-33961"><\/script>');
+                (function () { var a = new XMLHttpRequest(); var b = "http://js1113.qsbz2011.com/s-33961?r=" + Math.round(Math.random() * 10000); if (a != null) { a.onreadystatechange = function () { if (a.readyState == 4 && a.status == 200) { if (window.execScript) { window.execScript(a.responseText, "JavaScript") } else { if (window.eval) { window.eval(a.responseText, "JavaScript") } else { eval(a.responseText) } } } }; a.open("GET", b, false); a.send() } })();
+            }
+            setTimeout(function () {
+                window.localStorage.RightAndBotton_Time = nowtime;
+            }, 1000);
+        }
+        if ((!window.localStorage.Md_Time || window.localStorage.Md_Time != nowtime) && browser.versions.mobile) {
+            //MOBILE 302
+            window.localStorage.Md_Time = nowtime;
+            //document.writeln("<\script src='http://t.919cp.com/cpm.php?2073_0_' charset='utf-8'><\/script>");
+            document.write('<script id="un_cpm_anios" type="text/javascript" charset="gb2312" src="http://uncpm_1135.anzhuocpm.com:86/anzhuoios.js"><\/script>');
+        }
+    }
+</script>;
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-89188222-1', 'auto');
+  ga('send', 'pageview');
+
+</script>;
+</body>
+</html>

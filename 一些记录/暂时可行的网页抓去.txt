@@ -1,0 +1,185 @@
+// 网络尝试.cpp : 定义控制台应用程序的入口点。
+//
+
+#include "stdafx.h"
+#include <stdio.h>
+#include <curl\curl.h>
+#include <string.h>
+#include <conio.h>
+#include <stdlib.h>
+
+#include <string>
+#include <iostream>
+#include <fstream>
+#include "winsock2.h"
+#include <time.h>
+
+#pragma comment(lib, "ws2_32.lib") 
+
+using namespace std;
+
+#define DEFAULT_PAGE_BUF_SIZE 1048576
+
+void main()
+{
+	WSADATA wsaData;
+	int err;
+	err = WSAStartup(MAKEWORD(2, 2), &wsaData);
+	if (err != 0)
+	{
+		return;
+	}
+
+	// timer is start
+
+	clock_t start, finish;
+	double duration;
+	start = clock();
+
+	char host[] = "www.jjdown.com";
+	char *request = "GET / HTTP/1.0\r\nHost: www.jjdown.com\r\nConnection: Close\r\n\r\n";
+
+	struct hostent *hp;
+	hp = gethostbyname(host);
+	if (hp == NULL)
+	{
+		cout << "gethostbyname() error in GetIpByHost: " << host << endl;
+		return;
+	}
+
+	// 获取域名对应的IP
+
+	struct in_addr inAddr;
+	LPSTR lpAddr;
+	lpAddr = hp->h_addr;
+	memmove(&inAddr, lpAddr, 4);
+
+	int sock, ret = 0, optval = 1;
+	struct sockaddr_in sa;
+	sa.sin_family = AF_INET;
+	sa.sin_port = htons(80);
+	sa.sin_addr.s_addr = inet_addr(inet_ntoa(inAddr));
+
+	sock = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+	connect(sock, (SOCKADDR*)&sa, sizeof(sa));
+	if (sock == -1)
+	{
+		return;
+	}
+	if (sock == -2)
+	{
+		return;
+	}
+
+	// send the "GET" data
+
+	ret = send(sock, request, strlen(request), 0);
+
+	// 网页内容长度。可以从http头部数据中获取 "Content-Length:"
+
+	int m_nContentLength = DEFAULT_PAGE_BUF_SIZE;
+
+	char *pageBuf;
+	pageBuf = (char *)malloc(m_nContentLength);
+	memset(pageBuf, 0, m_nContentLength);
+
+	int bytesRead = 0;
+	while (ret > 0)
+	{
+		ret = recv(sock, pageBuf + bytesRead, m_nContentLength - bytesRead, 0);
+
+		if (ret > 0)
+		{
+			bytesRead += ret;
+		}
+	}
+	pageBuf[bytesRead] = '\0';
+
+	cout << bytesRead << endl;
+
+	// write the html content to the file
+
+	ofstream ofs;
+	ofs.open("ofs.txt");
+	ofs << pageBuf << endl;
+
+	ofs.close();
+	free(pageBuf);
+	closesocket(sock);
+	WSACleanup();
+
+	// timer is finish
+
+	finish = clock();
+	duration = (double)(finish - start) / CLOCKS_PER_SEC;
+	cout << "have cost " << duration << " seconds\n";
+
+	return;
+}
+
+
+
+
+
+
+
+
+
+
+#include "WinHttpClient.h"
+
+#include <fstream>
+#include <string>
+#include <Windows.h>
+
+using namespace std;
+
+string ws2s(const wstring &ws)
+{
+	const wchar_t* wpchar = ws.c_str();
+	size_t returnVal = 0;
+	size_t wSize = 2 * ws.size() + 1;
+	char* pchar = new char[wSize];
+	memset(pchar, 0, wSize);
+	wcstombs(pchar, wpchar, wSize);
+	string result = pchar;
+	delete[] pchar;
+	return result;
+}
+
+
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	setlocale(LC_ALL, "");
+	WinHttpClient client(L"http://www.jijidown.com/Video/Av1234567");
+	bool b = client.SendHttpRequest();
+	if (!b)
+	{
+		cout << "error" << endl;
+		exit(1);
+	}
+	wstring httpResponseHeader = client.GetResponseHeader();
+	wstring httpResponseContent = client.GetResponseContent();
+	wcout << httpResponseHeader << endl;
+
+	if (httpResponseContent.empty() == false)
+	{
+		string strTmp = ws2s(httpResponseContent);
+
+
+		std::ofstream  ofsLogFile("test.dat", std::ios_base::trunc);
+		ofsLogFile << strTmp << endl;
+	}
+
+	return 0;
+}
+
+
+
+
+
+
+
+
+

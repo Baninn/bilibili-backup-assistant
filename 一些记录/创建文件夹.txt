@@ -1,0 +1,25 @@
+int file(void)//创建文件夹
+{
+	char *tag,*fileName = "【A君】【东方】众神眷恋的幻想乡（&quot;木吉他&quot;版）\\";
+	for (tag = fileName; *tag; tag++)
+	{
+		if (*tag == '\\')
+		{
+			char buf[1000], path[1000];
+			strcpy(buf, fileName);
+			buf[strlen(fileName) - strlen(tag) + 1] = NULL;
+			strcpy(path, buf);
+			if (access(path, 6) == -1)
+			{
+				mkdir(path);  //创建成功返回0 不成功返回-1  
+			}
+		}
+	}
+	return 0;
+}
+
+
+
+
+
+file();//创建文件夹

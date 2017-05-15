@@ -1,0 +1,59 @@
+将文件每行内容存储到字符串中，再输出字符串
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+void main()
+{
+char buffer[256];
+fstream out;
+out.open("com.txt",ios::in);
+cout<<"com.txt"<<" 的内容如下:"<<endl;
+while(!out.eof())
+{
+   out.getline(buffer,256,'\n');//getline(char *,int,char) 表示该行字符达到256个或遇到换行就结束
+   cout<<buffer<<endl;
+}
+out.close();
+cin.get();//cin.get() 是用来读取回车键的,如果没这一行，输出的结果一闪就消失了
+}
+
+
+按行读取
+string ReadLine(char *filename, int line)
+{
+	int lines, i = 0;
+	string temp;
+	fstream file;
+	file.open(filename, ios::in);
+	lines = CountLines(filename);
+	if (line <= 0)
+	{
+		return "Error 1: 行数错误，不能为0或负数。";
+	}
+	if (file.fail())
+	{
+		return "Error 2: 文件不存在。";
+	}
+	if (line>lines)
+	{
+		return "Error 3: 行数超出文件长度。";
+	}
+	while (getline(file, temp) && i<line - 1)
+	{
+		i++;
+	}
+	file.close();
+	return temp;
+}
+
+main
+	int l;
+	char filename[4096];
+	printf( "请输入文件名:\n");
+	cin >> filename;
+	printf("\n请输入要读取的行数:\n");
+	cin >> l;
+	cout << ReadLine(filename, l);
+	cin.get();
+	cin.get();

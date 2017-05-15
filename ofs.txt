@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Thu, 06 Apr 2017 02:51:22 GMT
+Accept-Ranges: bytes
+ETag: "0b17bac80aed21:0"
+Server: Microsoft-IIS/7.5
+X-Powered-By: ASP.NET
+Date: Wed, 12 Apr 2017 08:55:05 GMT
+Connection: close
+Content-Length: 2423
+
+<!DOCTYPE html><!--[if lt IE 7 ]><html class="ie6"><![endif]--><!--[if IE 7 ]><html class="ie7"><![endif]--><!--[if IE 8 ]><html class="ie8"><![endif]--><!--[if IE 9 ]><html class="ie9"><![endif]--><!--[if (gt IE 9)|!(IE)]>--><html><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title></title><meta name="viewport" content="width=device-width, initial-scale=1"><noscript><meta HTTP-EQUIV="REFRESH" content="0; url=/legacy"></noscript><meta name="description" content="See related links to what you are looking for."/></head><body><script type="text/javascript">g_pc=(function(){var
+Ee=document,aBZ=location,DJ=Ee.createElement('script'),aDf=false,Mf;DJ.defer=true;DJ.async=true;DJ.src="//www.google.com/adsense/domains/caf.js";DJ.onerror=function(){aBZ.href='/legacy';};DJ.onload=DJ.onreadystatechange=function(){if(!aDf&&Mf){if(!window['googleNDT_']){aBZ.replace('/legacy');}
+Mf(google.ads.domains.Caf);}
+aDf=true;};Ee.body.appendChild(DJ);return{aBO:function(oe){if(aDf)
+oe(google.ads.domains.Caf);else
+Mf=oe;},bq:function(){if(!aDf){Ee.body.removeChild(DJ);}}};})();g_pd=(function(){var
+aBZ=window.location,nB={},bH,aBY=aBZ.search.substring(1),aCZ,aC$;if(!aBY)
+return nB;aCZ=aBY.split("&");for(bH=0;bH<aCZ.length;bH++){aC$=aCZ[bH].split('=');nB[aC$[0]]=aC$[1]?aC$[1]:"";}
+return nB;})();(function(){var aCT=screen,RI=window,aBZ=RI.location,aDe=top.location,Ee=document,St=Ee.body||Ee.getElementsByTagName('body')[0],aDb=0,aDa=0,aDc=0;function aC_(){aDc++;aDb=RI.innerWidth||Ee.documentElement.clientWidth||St.clientWidth;aDa=RI.innerHeight||Ee.documentElement.clientHeight||St.clientHeight;if(aDb>0||aDc>=5){aDd();}
+else{setTimeout(aC_,100);}}
+aC_();function aDd(){var ec=undefined,Jd=encodeURIComponent,aCY;if(aDe!=aBZ&&g_pd.r_s===ec)
+aDe.href=aBZ.href;aCY=Ee.createElement('script');aCY.type='text/javascript';aCY.src='/glp'+'?r='+(g_pd.r?g_pd.r:(Ee.referrer?Jd(Ee.referrer.substr(0,255)):''))+
+(g_pd.r_u?'&u='+g_pd.r_u:'&u='+Jd(aBZ.href.split('?')[0]))+
+(g_pd.gc?'&gc='+g_pd.gc:'')+
+(g_pd.cid?'&cid='+g_pd.cid:'')+
+(g_pd.query?'&sq='+g_pd.query:'')+
+(g_pd.a!==ec?'&a':'')+
+(g_pd.z!==ec?'&z':'')+
+(g_pd.z_ds!==ec?'&z_ds':'')+
+(g_pd.r_s!==ec?'&r_s='+g_pd.r_s:'')+
+(g_pd.r_d!==ec?'&r_d='+g_pd.r_d:'')+'&rw='+aCT.width+'&rh='+aCT.height+
+(g_pd.r_ww!==ec?'&ww='+g_pd.r_ww:'&ww='+aDb)+
+(g_pd.r_wh!==ec?'&wh='+g_pd.r_wh:'&wh='+aDa);St.appendChild(aCY);}})();</script></body></html>

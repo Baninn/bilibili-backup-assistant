@@ -1,0 +1,98 @@
+// 网络尝试.cpp : 定义控制台应用程序的入口点。
+//
+#include "WinHttpClient.h"
+#include <stdio.h>
+#include <fstream>
+#include <string>
+#include <Windows.h>
+#include <string>
+#include <iostream>
+#include <regex>
+
+using namespace std;
+
+string ws2s(const wstring &ws)
+{
+	const wchar_t* wpchar = ws.c_str();
+	size_t returnVal = 0;
+	size_t wSize = 2 * ws.size() + 1;
+	char* pchar = new char[wSize];
+	memset(pchar, 0, wSize);
+	wcstombs(pchar, wpchar, wSize);
+	string result = pchar;
+	delete[] pchar;
+	return result;
+}
+
+/*int video(char num)
+{
+	
+	scanf("%s", num);
+	return 0;
+}
+
+void ContentSearchMainRecommend(const string& content)
+{
+	string text = content;
+	string regString("var Var_Bilibili_Title = '','([^']*)'");
+	string regSubString("<strong class=\"strong color_orange\">([^<]*)</strong>");
+	regex regExpress(regString);
+	regex regSubExpress(regSubString);
+
+
+	//string::size_type pos = content.find(strSearch);
+	smatch ms;
+
+	// 判断是否全行匹配
+	while (regex_search(text, ms, regExpress))
+	{
+		string strResult;
+		if (ms.size() == 2)
+		{
+			strResult = ms.str(1).c_str();
+		}
+		cout << "var Var_Bilibili_Title = ':\t" << strResult << "\t\t";
+		text = ms.suffix().str();
+		if (regex_search(text, ms, regSubExpress))
+		{
+			if (ms.size() == 2)
+			{
+				cout << ms.str(1).c_str() << endl;
+			}
+		}
+		else
+		{
+			cout << "search substring error" << endl;
+			break;
+		}
+	}
+	return;
+}
+*/
+int _tmain(int argc, _TCHAR* argv[])
+{
+	char num;
+	scanf("%s", num);
+	setlocale(LC_ALL, "");
+	WinHttpClient client(L"http://www.jijidown.com/Video/Av1234567");
+	bool b = client.SendHttpRequest();
+	if (!b)
+	{
+		cout << "error" << endl;
+		exit(1);
+	}
+	wstring httpResponseHeader = client.GetResponseHeader();
+	wstring httpResponseContent = client.GetResponseContent();
+	wcout << httpResponseHeader << endl;
+
+	if (httpResponseContent.empty() == false)
+	{
+		string strTmp = ws2s(httpResponseContent);
+
+
+		std::ofstream  ofsLogFile("test.dat", std::ios_base::trunc);
+		ofsLogFile << strTmp << endl;
+	}
+
+	return 0;
+}

@@ -1,0 +1,57 @@
+#include <windows.h>
+#include <stdio.h>
+#include <shellapi.h>
+#include <tchar.h>
+#include <string.h>
+#pragma comment(lib, "shell32.lib")
+
+void copy(char * from, char * to)
+{
+	char a[400];
+	char head1[300] = "d:\\";
+	char head2[300] = "d:\\#xiangmu\\";
+	//char end[300] = "\\from[200]";
+	strcpy(a, from);
+	strcpy(from, a);
+	strcat(head1, from);
+	strcat(head2, to);
+	strcat(head2, from);
+	printf("%s\n %s\n %s\n",a,from, head2);
+	SHFILEOPSTRUCT fop;
+	ZeroMemory(&fop, sizeof fop);
+	fop.wFunc = FO_COPY;
+	fop.pFrom = _T("head1");
+	fop.pTo = _T("head2");
+	SHFileOperation(&fop);
+}
+int main()
+{
+	char come[200], tte[200]="【4月】夏目友人帐 第六季 05";
+	scanf("%s", &come[200]);
+	getchar();
+	copy(come, tte);
+	return 0;
+}
+
+d:\\9137147
+
+d:\\#xiangmu\\【4月】夏目友人帐 第六季 05\0
+
+
+#include <windows.h>
+#include <stdio.h>
+#include <shellapi.h>
+#include <tchar.h>
+#include <string.h>
+#pragma comment(lib, "shell32.lib")
+
+int main()
+{
+	SHFILEOPSTRUCT fop;
+	ZeroMemory(&fop, sizeof fop);
+	fop.wFunc = FO_COPY;
+	fop.pFrom = _T("d:\\9137147");
+	fop.pTo = _T("d:\\#xiangmu\\【4月】夏目友人帐 第六季 05\0");
+	SHFileOperation(&fop);
+	return 0;
+}

@@ -1,0 +1,61 @@
+#include <stdio.h>
+#include<string.h>
+
+void replace_string(char * source_str, char * targ_str, char *val)/*将字符串中指定子字符串用指定字符串代替，targ_str 是被替换的，val是替换的字符串*/
+{
+	char temp_sstr[513], result[513];
+	char * p, *q;
+	int len; len = 0; q = p = NULL;
+	memset(result, 0, sizeof(result));
+	memset(temp_sstr, 0, sizeof(temp_sstr));
+	strcpy(temp_sstr, source_str);
+	p = q = temp_sstr;
+	len = strlen(targ_str);
+	while (q != NULL)
+	{
+		if ((q = strstr(p, targ_str)) != NULL)
+		{
+			strncat(result, p, q - p);
+			strcat(result, val);
+			strcat(result, "\0");
+			q += len;
+			p = q;
+		}
+		else
+			strcat(result, p);
+	}
+	strcpy(source_str, result);
+}
+
+
+int main()
+{
+	FILE*data;
+	char str[200],tte[200];
+	data = fopen("test.dat","rb");
+	if (data==NULL)
+		printf("Error opening file\n");
+	else 
+	{
+		while(fgets(str, 200, data))
+		{
+			char substr[100] = "var Var_Bilibili_Title = ";//查找并输出<tittle>所在的行
+			char *p = str, *q = substr;
+			int flag = 0;
+			for (; *(p + strlen(substr) - 1); p++)
+			{
+				for (q = substr; *p == *q&&*q; p++, q++);
+				if (!*q)
+				{
+					strcpy(tte,str);//tte为该行一行字符
+					replace_string(tte, "        var Var_Bilibili_Title = '", "");//去掉前面
+					replace_string(tte, "';", "");//去掉后面
+					printf("%s",tte);
+					break;
+				}
+			}
+		}
+	fclose(data);
+	}
+}
+
